@@ -1,0 +1,432 @@
+	
+.sidenavflat{
+	display:none;
+}
+	
+a:link {
+    text-decoration: none;
+}		
+
+.menulink{
+    width: 100%;
+    float: left;
+    margin-bottom: 8%;
+    margin-left: 3%;
+}	
+
+.menuflat{
+    width: 20%;
+    float: left;
+	}
+
+.menuname{
+    padding: 5%;
+    float: left;
+    width: 65%;
+    border-bottom: solid 1px darkgrey;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 3%;
+	}
+	
+.sidemenu {
+    height: 100%;
+    width: 12.5%;
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    right: -20%;
+    background-color: #ffffffeb;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 4.5%;
+    padding-bottom: 5%;
+}	
+	
+
+.changedsidemenu {    
+    box-shadow: -1px 0px 11px #c3a0a0;
+	height: 100%;
+    width: 12.5%;
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    right: 0;
+    background-color: #ffffffeb;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 4.5%;
+    padding-bottom: 5%;
+	}	
+		
+	.menu-container{
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin-left: 5%;
+    border: solid 1px white;
+    padding: 4px;
+	border-radius: 5px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 23px;
+    height: 3px;
+    background-color: #111;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-48deg) translate(0px, 16px);
+	    width: 13px;
+}
+
+.change .bar2 {opacity: 3;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+transform: rotate(45deg) translate(1px, -16px);
+	    width: 13px;
+}
+	
+			.emptyselect{ padding: 8%;}
+	
+			.searchdiv{
+				float:right;
+			    margin-top: 0.4%;
+			}
+
+			#search {
+				float: right;
+		      height: 26px;			  
+			  }	
+
+			button.btn_icon {
+			  font-family: "fontawesome";
+			  float: right;
+			  }
+			  
+			.gif {
+				float: left;
+				width: 100%;
+				margin-top: 1.5%;
+				margin-bottom: 1.5%;
+				}
+
+			.gif img{
+				margin-left: auto;
+				margin-right: auto;
+				width: 6%;
+				display: block;
+				}
+				
+			.scontainer{			
+					display: none;
+			}
+			b {
+				font-size: 0.9em;
+			}
+	
+			.smallcontainer{			
+					display: none;
+			}
+	
+			.btn{			
+					display: none;
+			}				
+	
+			.total_jobs span {
+					display: none;
+			}	
+	
+ html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: sans-serif;
+				font-size: 13px;
+                height: -webkit-fill-available;
+                margin: 0;
+            }
+
+		.header {
+				background-color:#3ee9e3;;
+				border-color:#d3e0e9;
+				width: 100%;
+				position: fixed;
+				z-index: 6;
+			 }
+
+			 .header_in{
+					padding: 0.6% 10%;
+			 }
+			 
+			 .logo{
+				font-family: 'Raleway', sans-serif;
+                font-size: 26px;
+				font-weight: 600;
+				letter-spacing: .1rem;
+				text-decoration: none;
+				text-transform: uppercase;
+				color: #fff;
+			 }
+			
+			
+			.logo:hover{
+				  color: #ffff;
+				  text-decoration: none;
+			}
+
+			
+            .top-right {
+                position: fixed;
+                right: 30px;
+                top: 13px;
+            }
+
+			.bigcontainer{			
+				width:100%;
+				
+			}
+			
+			.leftcontainer{
+					width: 15.6%;
+					float: left;
+					margin-top: 5%;
+					margin-left: 0.4%;
+			}
+			
+			.leftcontainer_in{
+				width:100%;
+				float:left;
+			}
+
+			.check_box{float:left;}
+			
+			#list-name{margin-top: 2px;}
+			
+			#updateDiv{
+					float: right;
+					width: 83%;
+					margin-top: 3%;
+					margin-right: 5px;    margin-bottom: 2%;
+				}
+				
+				
+			
+
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+
+			button.accordion{
+			  width: 100%;
+			  background-color: whitesmoke;
+			  border: none;
+			  outline: none;
+			  text-align: left;
+			  padding: 15px 20px;
+			  font-size: 18px;
+			  color: #444;
+			  cursor: pointer;
+			  transition: background-color 0.2s linear;
+			}
+
+			#accordion_top
+			{
+			    -webkit-border-top-right-radius: 14px;
+				-webkit-border-top-left-radius: 14px;
+			}
+			
+			#accordion_bottom
+			{
+			    -webkit-border-bottom-right-radius: 14px;
+				-webkit-border-bottom-left-radius: 14px;
+			}
+			
+			button.accordion:after {
+			  content: '\f107';
+			  font-family: "fontawesome";
+			  font-size: 14px;
+			  float: right;
+			}
+
+			button.accordion.is-open:after {
+			  content: '\f106';
+			}
+
+			button.accordion:hover, button.accordion.is-open {
+			  background-color: #ddd;
+			}
+
+			.accordion-content {
+			  background-color: white;
+			  border-left: 1px solid whitesmoke;
+			  border-right: 1px solid whitesmoke;
+			 
+			  max-height:0;
+			  overflow: hidden;
+			  transition: max-height 0.2s ease-in-out;
+			}
+
+			.lists{
+				list-style-type: none;
+				font-weight: bold;
+				padding: 5% 3%;
+			}	
+
+			.lists:hover{
+				  background-color: #fffed3;
+			}
+			
+		
+			
+			.job_table {
+					float: left;
+					width: 100%;
+			}
+			
+			.srry{    padding: 7% 19%;}
+			
+			.myTable th{
+					border: 1px solid #a09b9b;
+										
+					background-color: #9bf3ef;
+					color: #615252ed;
+				}
+				
+			.myTable td{
+					border: 1px solid #a09b9b;
+					
+					
+				}
+			.myTable{
+					    border-collapse: separate;
+						border-spacing: unset;
+						text-align: center;
+						width: 100%;
+				}
+				
+			.myTable tr:nth-child(even) {background: #e6ffff;}
+
+			/* .myTable tr:hover {background-color: #b7ffdb21;} */
+				
+			.myTable thead th:first-child {
+									border-radius: 14px 0 0 0;
+									
+									}
+			
+			.myTable thead th:last-child {
+									border-radius: 0 14px 0 0;
+									
+							}
+			.table-head {
+					position: fixed;
+					background-color: white;
+					width: 83%;
+					z-index: 4;
+					padding-top: 1%;
+				}
+				
+			.table-body {
+				margin-top: 3.1%;
+				width: 100%;
+				padding-top: 1.2%;
+			}
+
+				
+			.total_jobs {			
+					padding: 0.9%;
+			}
+			
+			.hleft {						
+						background-color: #ffffff00;
+						height: 10px;
+						margin-top: 3px;
+						width: 16.8%;
+						float: left;
+				}
+			
+			
+			.hright {						
+						background-color: #c387c2;
+						height: 10px;
+						margin-top: 3px;
+						width: 1120px;
+						float: left;
+				}
+				
+				.cell1{
+/* 					    width: 116px;
+						overflow: hidden; */
+						word-break: break-word;
+						padding: 2px;
+				}
+				.cell2{
+/* 					    width: 80px;
+						overflow: hidden; */
+						word-break: break-word;
+						padding: 2px;
+				}
+				.cell3{
+/* 					    width: 141px;
+						overflow: hidden; */
+						word-break: break-word;
+						padding: 2px;
+				}
+				.cell4{
+					/*     width: 140px;
+						overflow: hidden; */
+						word-break: break-word;
+						padding: 2px;
+				}
+				.cell5{
+/* 					    width: 195px;
+						overflow: hidden; */
+						word-break: break-word;
+						text-align: left;
+						padding: 2px;
+				}
+				.cell6{
+/* 					    width: 150px;
+						overflow: hidden; */
+						word-break: break-word;
+						padding: 2px;
+				}
+				
+				.cell7{
+/* 						width: 65px;
+						overflow: hidden; */
+						word-break: break-word;
+						padding: 2px;
+				}				
+				
+				.cell8{
+/* 					    width: 88px;
+						overflow: hidden; */
+						word-break: break-word;
+						padding: 2px;
+				}
+				
+				.cell9{
+/* 					    width: 40px;
+						overflow: hidden; */
+						word-break: break-word;
+						padding: 2px;
+				}
+				
+				.cell99{
+/* 					    width: 49px;
+						overflow: hidden; */
+						word-break: break-word;
+						padding: 2px;
+				}		
+				
